@@ -131,3 +131,124 @@ h3 {
     font-size: 14px;
     color: hsl(229, 6%, 66%);
 }
+
+@media (max-width: 375px) {
+    body {
+        width: 375px;
+        height: 100vh;
+    }
+
+    .layout {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        color: hsl(234, 12%, 34%);
+        font-size: 24px;
+        font-weight: 200;
+        letter-spacing: .5px;
+    }
+    
+    h2 {
+        color: hsl(234, 12%, 34%);
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+  
+    .value-section p {
+        color: hsl(229, 6%, 66%);
+        width: 20rem;
+        
+    }
+
+}
+/* 
+
+
+.features-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 4rem
+}
+
+.flex-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9rem;
+}
+
+.flex-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9rem;
+}
+
+.block {
+    height: 250px;
+    width: 350px;
+    background-color: hsl(0, 0%, 98%);
+    margin-bottom: 1rem;
+    border-radius: 5px 5px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 8px 15px 5px hsl(230, 17%, 86%);
+}
+
+img {
+    width: 65px;
+    height: 65px;
+    margin: 0 0 2rem 16rem;
+}
+
+.supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%); 
+    margin-right: 2rem;
+}
+
+.team-builder {
+    border-top: 4px solid hsl(0, 78%, 62%);
+    margin-bottom: 1rem;
+}
+
+.karma {
+    border-top: 4px solid hsl(34, 97%, 64%);
+    margin-top: 1rem;
+    
+}
+    
+.calculator {
+    border-top: 4px solid hsl(212, 86%, 64%);
+    margin-left: 2rem;
+}
+
+h3 {
+    color: hsl(234, 12%, 34%);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 1.5rem 0 .5rem 2rem
+}
+
+.block p {
+    width: 80%;
+    margin-left: 2rem;
+    font-size: 14px;
+    color: hsl(229, 6%, 66%);
+} */
